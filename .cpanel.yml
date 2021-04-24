@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u6282940/public_html/
+    - /bin/cp buang.php $DEPLOYPATH
